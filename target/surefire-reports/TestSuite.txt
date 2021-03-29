@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.086 s <<< FAILURE! - in TestSuite
+Academy.HomePage.validateTitle  Time elapsed: 0.101 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSES] but found [Featured Courses]
+	at Academy.HomePage.validateTitle(HomePage.java:61)
+
