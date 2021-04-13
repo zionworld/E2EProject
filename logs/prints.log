@@ -1,6 +1,5 @@
-20:01:57.385 [main] INFO  resources.base - Driver is initiated
-20:02:04.971 [main] INFO  resources.base - Navigated to homepage
-20:02:05.101 [main] INFO  resources.base - Validated title of the block
-20:02:11.287 [main] INFO  resources.base - Driver is initiated
-20:02:18.915 [main] INFO  resources.base - Navigated to homepage
-20:02:19.339 [main] INFO  resources.base - Validated visibility of the navigation bar
+20:22:11.759 [main] INFO  resources.base - Navigated to homepage
+20:22:11.902 [main] INFO  resources.base - Validated title of the block
+20:22:13.635 [main] INFO  resources.base - Driver is initiated
+20:22:21.728 [main] INFO  resources.base - Navigated to homepage
+20:22:21.858 [main] INFO  resources.base - Validated visibility of the navigation bar
