@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56781" started-at="2021-03-29T01:53:04Z" finished-at="2021-03-29T01:54:01Z">
+  <suite name="Suite" duration-ms="55238" started-at="2021-04-01T19:49:31Z" finished-at="2021-04-01T19:50:26Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="56781" started-at="2021-03-29T01:53:04Z" finished-at="2021-03-29T01:54:01Z">
+    <test name="Test" duration-ms="55238" started-at="2021-04-01T19:49:31Z" finished-at="2021-04-01T19:50:26Z">
       <class name="Academy.HomePage">
-        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeTest" is-config="true" duration-ms="7914" started-at="2021-03-29T01:53:04Z" finished-at="2021-03-29T01:53:12Z">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@212bf671]" name="initializeTest" is-config="true" duration-ms="10532" started-at="2021-04-01T19:49:31Z" finished-at="2021-04-01T19:49:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="initializeBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeBrowserTest" duration-ms="3096" started-at="2021-03-29T01:53:12Z" data-provider="dataSet" finished-at="2021-03-29T01:53:15Z">
+        <test-method status="PASS" signature="initializeBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@212bf671]" name="initializeBrowserTest" duration-ms="3796" started-at="2021-04-01T19:49:42Z" data-provider="dataSet" finished-at="2021-04-01T19:49:45Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="tearDown" is-config="true" duration-ms="234" started-at="2021-03-29T01:53:15Z" finished-at="2021-03-29T01:53:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@212bf671]" name="tearDown" is-config="true" duration-ms="401" started-at="2021-04-01T19:49:45Z" finished-at="2021-04-01T19:49:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeTest" is-config="true" duration-ms="6623" started-at="2021-03-29T01:53:16Z" finished-at="2021-03-29T01:53:22Z">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@212bf671]" name="initializeTest" is-config="true" duration-ms="7035" started-at="2021-04-01T19:49:46Z" finished-at="2021-04-01T19:49:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="initializeBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeBrowserTest" duration-ms="3593" started-at="2021-03-29T01:53:22Z" data-provider="dataSet" finished-at="2021-03-29T01:53:26Z">
+        <test-method status="PASS" signature="initializeBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@212bf671]" name="initializeBrowserTest" duration-ms="3710" started-at="2021-04-01T19:49:53Z" data-provider="dataSet" finished-at="2021-04-01T19:49:56Z">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="tearDown" is-config="true" duration-ms="206" started-at="2021-03-29T01:53:26Z" finished-at="2021-03-29T01:53:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@212bf671]" name="tearDown" is-config="true" duration-ms="306" started-at="2021-04-01T19:49:56Z" finished-at="2021-04-01T19:49:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeTest" is-config="true" duration-ms="6802" started-at="2021-03-29T01:53:26Z" finished-at="2021-03-29T01:53:33Z">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@212bf671]" name="initializeTest" is-config="true" duration-ms="9378" started-at="2021-04-01T19:49:57Z" finished-at="2021-04-01T19:50:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="initializeBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeBrowserTest" duration-ms="3067" started-at="2021-03-29T01:53:33Z" data-provider="dataSet" finished-at="2021-03-29T01:53:36Z">
+        <test-method status="PASS" signature="initializeBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@212bf671]" name="initializeBrowserTest" duration-ms="3791" started-at="2021-04-01T19:50:06Z" data-provider="dataSet" finished-at="2021-04-01T19:50:10Z">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="tearDown" is-config="true" duration-ms="181" started-at="2021-03-29T01:53:36Z" finished-at="2021-03-29T01:53:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@212bf671]" name="tearDown" is-config="true" duration-ms="163" started-at="2021-04-01T19:50:10Z" finished-at="2021-04-01T19:50:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeTest" is-config="true" duration-ms="7135" started-at="2021-03-29T01:53:36Z" finished-at="2021-03-29T01:53:43Z">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@212bf671]" name="initializeTest" is-config="true" duration-ms="7937" started-at="2021-04-01T19:50:10Z" finished-at="2021-04-01T19:50:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="validateTitle" duration-ms="181" started-at="2021-03-29T01:53:43Z" finished-at="2021-03-29T01:53:43Z">
+        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:Academy.HomePage@212bf671]" name="validateTitle" duration-ms="81" started-at="2021-04-01T19:50:18Z" finished-at="2021-04-01T19:50:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSES] but found [Featured Courses]]]>
@@ -128,19 +128,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="tearDown" is-config="true" duration-ms="4294" started-at="2021-03-29T01:53:43Z" finished-at="2021-03-29T01:53:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@212bf671]" name="tearDown" is-config="true" duration-ms="216" started-at="2021-04-01T19:50:18Z" finished-at="2021-04-01T19:50:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="initializeTest" is-config="true" duration-ms="9042" started-at="2021-03-29T01:53:48Z" finished-at="2021-03-29T01:53:57Z">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:Academy.HomePage@212bf671]" name="initializeTest" is-config="true" duration-ms="7239" started-at="2021-04-01T19:50:18Z" finished-at="2021-04-01T19:50:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="validationPresenceOfNavigationBar()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="validationPresenceOfNavigationBar" duration-ms="154" started-at="2021-03-29T01:53:57Z" finished-at="2021-03-29T01:53:57Z">
+        <test-method status="PASS" signature="validationPresenceOfNavigationBar()[pri:0, instance:Academy.HomePage@212bf671]" name="validationPresenceOfNavigationBar" duration-ms="148" started-at="2021-04-01T19:50:26Z" finished-at="2021-04-01T19:50:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationPresenceOfNavigationBar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@12d3a4e9]" name="tearDown" is-config="true" duration-ms="4185" started-at="2021-03-29T01:53:57Z" finished-at="2021-03-29T01:54:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@212bf671]" name="tearDown" is-config="true" duration-ms="389" started-at="2021-04-01T19:50:26Z" finished-at="2021-04-01T19:50:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

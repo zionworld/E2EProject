@@ -1,0 +1,8 @@
+20:01:17.160 [main] INFO  resources.base - Navigated to homepage
+20:01:20.949 [main] INFO  resources.base - Validated smoke test
+20:01:26.011 [main] INFO  resources.base - Driver is initiated
+20:01:32.650 [main] INFO  resources.base - Navigated to homepage
+20:01:35.536 [main] INFO  resources.base - Validated smoke test
+20:01:40.821 [main] INFO  resources.base - Driver is initiated
+20:01:50.255 [main] INFO  resources.base - Navigated to homepage
+20:01:53.154 [main] INFO  resources.base - Validated smoke test

@@ -6,7 +6,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
@@ -14,15 +15,21 @@ import resources.base;
 
 public class HomePage extends base {
 
+	public static Logger log = LogManager.getLogger(base.class.getName());
+
 	@BeforeMethod
 	public void initializeTest() throws IOException {
 		driver = initializeDriver();
+		log.info("Driver is initiated");
 		driver.get(prop.getProperty("url"));
+		log.info("Navigated to homepage");
+
 	}
 
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
+
 	}
 
 	@Test(dataProvider = "dataSet")
@@ -35,6 +42,7 @@ public class HomePage extends base {
 		loginPage.getEmail().sendKeys(email);
 		loginPage.getPassword().sendKeys(password);
 		loginPage.getLoginBtn().click();
+		log.info("Validated smoke test");
 
 	}
 
@@ -58,7 +66,8 @@ public class HomePage extends base {
 	public void validateTitle() {
 
 		LandingPage landingPage = new LandingPage(driver);
-		Assert.assertEquals("Featured Courses", landingPage.getText().getText());
+		Assert.assertEquals("FEATURED COURSES", landingPage.getText().getText());
+		log.info("Validated title of the block");
 	}
 
 	@Test
@@ -66,6 +75,8 @@ public class HomePage extends base {
 
 		LandingPage landingPage = new LandingPage(driver);
 		Assert.assertTrue(landingPage.getNavigationBar().isDisplayed());
+		log.info("Validated visibility of the navigation bar");
+		System.out.println(System.getProperty("user.dir"));
 	}
 
 }
